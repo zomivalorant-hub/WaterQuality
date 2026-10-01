@@ -25,7 +25,7 @@ const LandingPage = () => {
       >
         <div className="flex h-lvh items-center justify-center">
           <div className="flex flex-col items-center justify-center gap-2.5">
-            <div className="flex items-center flex-col">
+            <div className="flex items-center flex-col ">
               <img
                 src={waterr}
                 alt=""
@@ -33,13 +33,16 @@ const LandingPage = () => {
                 className="flext h-36 "
               />
               <div>
-                <span className="text-red-700 ml-2 font-mono text-3xl">
+                <span className="text-red-700 ml-2 font-mono text-2xl md:text-3xl">
                   Water
                 </span>
-                <span className="text-blue-300 ml-2 font-mono text-3xl">
+                <span className="text-blue-300 ml-2 font-mono text-2xl md:text-3xl">
                   Quality
                 </span>
-                <span className="font-mono text-3xl"> Recording System</span>
+                <span className="font-mono text-2xl md:text-3xl">
+                  {" "}
+                  Recording System
+                </span>
               </div>
             </div>
             <div className="flex flex-col py-2 bg-mauve-300 rounded-sm shadow-md px-2 mt-4">
