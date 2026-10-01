@@ -15,7 +15,7 @@ const LandingPage = () => {
     <>
       {contextHolder}
       <div
-        className="w-full max-w-7xl mx-auto h-full"
+        className="w-full mx-auto h-full"
         style={{
           backgroundImage: `url(${homebck})`,
           backgroundSize: "cover",
@@ -33,14 +33,13 @@ const LandingPage = () => {
                 className="flext h-36 "
               />
               <div>
-                <span className="text-red-700 ml-2 font-mono text-2xl md:text-3xl">
+                <span className="text-red-700 ml-2 font-mono  sm:text-2xl lg:text-3xl">
                   Water
                 </span>
-                <span className="text-blue-300 ml-2 font-mono text-2xl md:text-3xl">
+                <span className="text-blue-300 ml-2 mr-2 font-mono sm:text-2xl lg:text-3xl ">
                   Quality
                 </span>
-                <span className="font-mono text-2xl md:text-3xl">
-                  {" "}
+                <span className="font-mono sm:text-2xl lg:text-3xl">
                   Recording System
                 </span>
               </div>
@@ -58,7 +57,7 @@ const LandingPage = () => {
                 initialValues={{
                   loginAs: "patient",
                 }}
-                style={{ minWidth: "400px", maxWidth: "600px" }}
+                style={{ minWidth: "350px", maxWidth: "600px" }}
               >
                 <Row gutter={8}>
                   <Col xs={24} sm={24}>
